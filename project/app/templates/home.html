@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <p>Bem-vindo {{ user.username }}!</p>
+
+  <a href="{% url 'criar_repositorio' %}">Criar repositório</a>
+{% endblock %}
